@@ -54,7 +54,6 @@ FROM (
 GROUP BY campaign_name;
 ```
 
-![Screenshot 2024-09-29 at 12.04.18.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/1491165a-2f6e-4403-9f5f-0afd62357fd3/3942d596-565b-411d-beef-9989295c44c9/Screenshot_2024-09-29_at_12.04.18.png)
 
 In total, there were 3,177,233 impressions in the control campaign,
 and 2,237,544 impressions in the test campaign.
@@ -86,7 +85,6 @@ FROM (
 GROUP BY campaign_name;
 ```
 
-![Screenshot 2024-09-29 at 12.20.43.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/1491165a-2f6e-4403-9f5f-0afd62357fd3/109083b7-80f2-4d36-936b-5dcc18fff5f3/Screenshot_2024-09-29_at_12.20.43.png)
 
 On average, the control campaign crossed through 109,559 impressions,
 while the test campaign crossed through 74,584 impressions.
@@ -116,7 +114,6 @@ FROM (
 GROUP BY campaign_name;
 ```
 
-![Screenshot 2024-09-29 at 12.39.22.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/1491165a-2f6e-4403-9f5f-0afd62357fd3/d4d93647-8048-469c-b1d9-a34c88de66b3/Screenshot_2024-09-29_at_12.39.22.png)
 
 Now things take a turn. The total engagement in the control ad campaign is actually lower than the total engagement in the test ad campaign. Approximately **6.84% lower!**
 
@@ -151,7 +148,6 @@ FROM (
 GROUP BY campaign_name;
 ```
 
-![Screenshot 2024-09-29 at 13.19.17.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/1491165a-2f6e-4403-9f5f-0afd62357fd3/8391cc54-7319-42f2-b6df-ebcc1d8e5702/Screenshot_2024-09-29_at_13.19.17.png)
 
 Based on the results of the analysis, looking at the control ad campaign, the website had 15,161 purchases from 154,303 website clicks, indicating that **9.83%** of the visitors took the desired action. As with the test ad campaign, the website had 15,637 purchases from 180,970 website clicks, indicating that **8.64%** of the visitors that came through the ad took the desired action.
 
@@ -244,7 +240,6 @@ SELECT
 FROM test_campaign;
 ```
 
-![Screenshot 2024-09-30 at 12.15.14.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/1491165a-2f6e-4403-9f5f-0afd62357fd3/4c13014f-99be-444b-bc32-2f3327eabcd3/Screenshot_2024-09-30_at_12.15.14.png)
 
 The low values of **0.04299** and **0.0282** suggest that there is **little to no linear correlation** between the amount spent on ads and the number of purchases, meaning that changes in ad budget do not have a strong, consistent effect on purchases in a simple linear fashion.
 
