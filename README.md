@@ -1,5 +1,5 @@
 # AB-Testing-SQL-Project
-The idea of the project is to analyze the campaigns, find out if the ads were successful, determine the effectiveness of both marketing campaigns, Control and Test, in driving customer engagement and conversions. 
+A/B Testing Analysis for Data-Driven Decision-Making: Statistical Insights to Optimize User Engagement
 
 ## **About Dataset**
 
